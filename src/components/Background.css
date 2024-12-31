@@ -1,7 +1,8 @@
 .background {
-  min-height: 100vh;
+  position: relative;
   width: 100%;
-  transition: all 0.3s ease;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .background-bg {
@@ -13,12 +14,6 @@
 
 .background-gradient {
   background-color: brown;
-}
-
-.background {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
 }
 
 .marquee {
