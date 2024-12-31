@@ -8,7 +8,22 @@ interface BackgroundProps {
 const Background = ({ children }: BackgroundProps) => {
   const { theme } = useContext(ThemeContext);
 
-  return <div className={`theme theme-${theme}`}>{children}</div>;
+  return (
+    <div className={`background background-${theme}`}>
+      <div className="cloud-row row1">
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+        <img src="/clouds.png" alt="cloud" />
+      </div>
+
+      {children}
+    </div>
+  );
 };
 
 export default Background;

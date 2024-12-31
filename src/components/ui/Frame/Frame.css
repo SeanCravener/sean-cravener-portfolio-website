@@ -9,6 +9,8 @@
   height: 100%;
   border: 20px solid transparent;
   border-image: url("/border.png") 20;
+  z-index: 1;
+  position: relative;
 }
 
 .content {
