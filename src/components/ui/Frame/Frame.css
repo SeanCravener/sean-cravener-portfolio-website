@@ -2,19 +2,20 @@
   --bg_color: #ffc878;
   --bg_color2: #f8ba70;
   --bg_color3: #eba867;
+  --bg_color4: #fff3b9;
 }
 
 .border {
   width: 100%;
   height: 100%;
   border: 20px solid transparent;
-  border-image: url("/border.png") 20;
+  border-image: url("/border-content.png") 12;
   z-index: 1;
   position: relative;
 }
 
 .content {
-  background-color: var(--bg_color);
+  background-color: var(--bg_color4);
   padding: 2rem;
 }
 
