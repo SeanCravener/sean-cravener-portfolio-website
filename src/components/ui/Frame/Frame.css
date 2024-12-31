@@ -1,0 +1,24 @@
+:root {
+  --bg_color: #ffc878;
+  --bg_color2: #f8ba70;
+  --bg_color3: #eba867;
+}
+
+.border {
+  width: 100%;
+  height: 100%;
+  border: 20px solid transparent;
+  border-image: url("/border.png") 20;
+}
+
+.content {
+  background-color: var(--bg_color);
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .frame-border {
+    border-width: 20px;
+    padding: 1rem;
+  }
+}

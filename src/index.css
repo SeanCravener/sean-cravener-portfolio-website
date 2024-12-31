@@ -1,0 +1,44 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Properties */
+:root {
+  --frame_bg_color: #ffc878;
+  --frame_bg_color2: #f8ba70;
+  --frame_bg_color3: #eba867;
+}
+
+@font-face {
+  font-family: "Title Regular";
+  src: url("./assets/fonts/Title-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Title Leaf";
+  src: url("./assets/fonts/Title-Leaf.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Content Pixel";
+  src: url("./assets/fonts/Content-Pixel.woff") format("woff");
+}
+
+/* Base Styles */
+/* html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  line-height: 1.5;
+  color: var(--text-primary);
+  background-color: var(--bg-dark);
+  overflow-x: hidden;
+} */
